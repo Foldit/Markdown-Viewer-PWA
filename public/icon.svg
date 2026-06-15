@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" fill="#ffffff" stroke="#e1e4e8" stroke-width="1"/>
+  <g transform="translate(48, 48)">
+    <!-- Document icon -->
+    <rect x="0" y="0" width="96" height="96" fill="none" stroke="#0366d6" stroke-width="4" rx="8"/>
+    <!-- Lines representing text -->
+    <line x1="12" y1="24" x2="84" y2="24" stroke="#0366d6" stroke-width="3" stroke-linecap="round"/>
+    <line x1="12" y1="40" x2="84" y2="40" stroke="#0366d6" stroke-width="3" stroke-linecap="round"/>
+    <line x1="12" y1="56" x2="84" y2="56" stroke="#0366d6" stroke-width="3" stroke-linecap="round"/>
+    <line x1="12" y1="72" x2="60" y2="72" stroke="#0366d6" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

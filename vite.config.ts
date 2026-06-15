@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/Markdown-Viewer-PWA/',
   plugins: [
     vue(),
     VitePWA({
@@ -14,33 +15,33 @@ export default defineConfig({
         display: 'standalone',
         theme_color: '#ffffff',
         background_color: '#ffffff',
-        start_url: '/',
-        scope: '/',
+        start_url: '/Markdown-Viewer-PWA/',
+        scope: '/Markdown-Viewer-PWA/',
         icons: [
           {
-            src: '/icon-192.png',
+            src: '/Markdown-Viewer-PWA/icon.svg',
             sizes: '192x192',
-            type: 'image/png',
+            type: 'image/svg+xml',
             purpose: 'any'
           },
           {
-            src: '/icon-512.png',
+            src: '/Markdown-Viewer-PWA/icon.svg',
             sizes: '512x512',
-            type: 'image/png',
+            type: 'image/svg+xml',
             purpose: 'any'
           },
           {
-            src: '/icon-192.png',
+            src: '/Markdown-Viewer-PWA/icon.svg',
             sizes: '192x192',
-            type: 'image/png',
+            type: 'image/svg+xml',
             purpose: 'maskable'
           }
         ],
         screenshots: [
           {
-            src: '/icon-192.png',
+            src: '/Markdown-Viewer-PWA/icon.svg',
             sizes: '192x192',
-            type: 'image/png'
+            type: 'image/svg+xml'
           }
         ]
       },
